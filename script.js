@@ -1,13 +1,3 @@
-/**
- * ============================================================
- * SCRIPT - Portfólio Wilton Santos
- * Funcionalidades:
- * 1. Menu Hambúrguer (responsivo)
- * 2. Troca de Tema (Claro/Escuro)
- * 3. Validação do Formulário de Contato
- * ============================================================
- */
-
 document.addEventListener('DOMContentLoaded', function() {
 
     // ============================================================
