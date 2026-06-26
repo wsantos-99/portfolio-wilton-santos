@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilton Santos - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ==================== HEADER ==================== -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#inicio">WS</a>
+            </div>
+            <nav class="nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <!-- Botão de Troca de Tema -->
+            <button id="themeToggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+            <!-- Botão do Menu Hambúrguer (para mobile) -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==================== SEÇÃO HERO ==================== -->
+    <section class="hero-section" id="inicio">
+        <div class="container">
+            <div class="hero-image">
+                <img src="img/me.jpg" alt="Wilton Santos"/>
+            </div>
+            <div class="hero-content">
+                <h1>Olá, eu sou <span class="highlight-name">Wilton Santos</span></h1>
+                <p class="hero-subtitle">Estudante de Tecnologia em busca da primeira oportunidade de estágio</p>
+                <p class="hero-description">
+                    Apaixonado por resolver problemas através da programação. 
+                    Busco contribuir, aprender e evoluir como desenvolvedor em um ambiente profissional.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn-contact">Entrar em contato</a>
+                    <a href="#projects" class="btn-projects">Ver projetos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SEÇÃO SOBRE ==================== -->
+    <section class="about-section" id="about">
+        <div class="about-splitlayout">
+            <div class="about-splitlayout-main">
+                <div class="about-splitlayout-main-content">
+                    <span class="section-line"></span>
+                    <h2>Sobre mim</h2>
+                    <p>
+                        Sou estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> e também técnico 
+                        em <strong>Informática para Internet</strong>. Tenho uma base sólida em lógica de programação 
+                        e estou em constante aprendizado de novas tecnologias.
+                    </p>
+                    <p>
+                        Busco minha primeira oportunidade na área de tecnologia para aplicar meus conhecimentos 
+                        e continuar evoluindo como profissional.
+                    </p>
+                </div>
+                <div class="about-splitlayout-main-education">
+                    <h3>Formação Acadêmica</h3>
+                    <ul class="about-degree-list">
+                        <li>Tecnólogo em Análise e Desenvolvimento de Sistemas - Cursando</li>
+                        <li>Técnico em Informática para Internet - Concluído</li>
+                        <li>Idiomas: Português (Nativo), Inglês (Intermediário)</li>
+                    </ul>
+                </div>
+            </div>
+     
+            <div class="about-splitlayout-aside">
+                <div class="about-splitlayout-aside-content">
+                    <h3>Conhecimentos</h3>
+                    <ul class="about-skills-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Figma</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <!-- ==================== SEÇÃO PROJETOS ==================== -->
+    <section class="projects-section" id="projects">
+        <span class="section-line"></span>
+        <h2>Projetos & Práticas</h2>
+        
+        <!-- AVISO ILUSTRATIVO -->
+        <div class="projects-notice">
+            <p>📌 <strong>Aviso:</strong> Os projetos listados abaixo são <strong>meramente ilustrativos</strong> para fins de demonstração do portfólio. Os trabalhos reais serão adicionados em breve.</p>
+        </div>
+
+        <div class="projects-cards">
+            
+            <!-- Card 1 - Sistema de Cadastro -->
+            <div class="project-card">
+                <div class="card-top">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="card-bottom">
+                    <h3 class="card-title">Sistema de Cadastro</h3>
+                    <p class="card-text">Sistema completo de cadastro com validação de dados e banco de dados SQLite para gerenciamento de usuários.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">Python</span>
+                        <span class="card-tag">SQLite</span>
+                        <span class="card-tag">Tkinter</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span class="card-footer-illustrative">🔜 Em breve</span>
+                </div>
+            </div>
+
+            <!-- Card 2 - Site Institucional -->
+            <div class="project-card">
+                <div class="card-top">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="card-bottom">
+                    <h3 class="card-title">Site Institucional</h3>
+                    <p class="card-text">Landing page responsiva com animações e formulário de contato, desenvolvida com HTML5, CSS3 e JavaScript puro.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">HTML5</span>
+                        <span class="card-tag">CSS3</span>
+                        <span class="card-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span class="card-footer-illustrative">🔜 Em breve</span>
+                </div>
+            </div>
+
+            <!-- Card 3 - API REST -->
+            <div class="project-card">
+                <div class="card-top">
+                    <i class="fas fa-server"></i>
+                </div>
+                <div class="card-bottom">
+                    <h3 class="card-title">API REST com Flask</h3>
+                    <p class="card-text">API para gerenciamento de tarefas com autenticação JWT e documentação Swagger para endpoints organizados.</p>
+                    <div class="card-tags">
+                        <span class="card-tag">Python</span>
+                        <span class="card-tag">Flask</span>
+                        <span class="card-tag">JWT</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span class="card-footer-illustrative">🔜 Em breve</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==================== SEÇÃO CONTATO ==================== -->
+    <section class="contact-section" id="contato">
+        <span class="section-line"></span>
+        <h2>Entre em Contato</h2>
+        <p class="contact-subtitle">Vamos conversar sobre oportunidades ou projetos!</p>
+        
+        <div class="contact-container">
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                    <span class="error-message" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                    <span class="error-message" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+                    <span class="error-message" id="message-error"></span>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+            <div id="form-feedback" class="form-feedback"></div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <h3 class="footer-title">Entre em contato</h3>
+            <span class="footer-subtitle">Vamos conversar sobre oportunidades ou projetos!</span>
+            <div class="footer-buttons">
+                <a href="#" target="_blank" class="footer-button">
+                    <div class="footer-button-image">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <span>GitHub</span>
+                </a>
+                <a href="#" target="_blank" class="footer-button">
+                    <div class="footer-button-image">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:wilton@email.com" class="footer-button">
+                    <div class="footer-button-image">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <span>Email</span>
+                </a>
+            </div>
+            <span class="footer-copyright">© 2026 Wilton Santos. Todos os direitos reservados</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
